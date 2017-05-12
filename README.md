@@ -303,8 +303,8 @@ eval() 不但混淆语境还很危险，总会有比这更好、更清晰、更�
 #### 推荐
 ```
       $('.myDiv').find('.span1').text('1')
-           .end().find('.span2').text('2');
-           .end().find('.span3').text('3');
+           .end().find('.span2').text('2')
+           .end().find('.span3').text('3')
            .end().find('.span4').text('4');
 ```
 ### 注释规范
